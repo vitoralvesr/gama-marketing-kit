@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Acesso Plataforma">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-        <title>Marketing Kit | Bem-Vindo</title>
+        <title>Marketing Kit | Login</title>
 
         <!-- Add to homescreen for Chrome on Android -->
         <meta name="mobile-web-app-capable" content="yes">
@@ -26,8 +26,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-red.min.css">   
-        <link rel="stylesheet" href="css/styles.css">
-        <style>                       
+        <link rel="stylesheet" href="css/styles.css">        
+        <style>                      
             .button-login.mdl-button {
                 width: 100%;
                 margin-top: 5px;
@@ -35,21 +35,7 @@
                 -moz-border-radius:8px;
                 -webkit-border-radius:8px;
                 border-radius:8px;
-            }  
-            .button-sign-up.mdl-button {
-                border: 1px solid #fff;
-                color: #fff;
-                width: 100%;
-                -moz-border-radius:8px;
-                -webkit-border-radius:8px;
-                border-radius:8px;
-            }
-            .button-sign-up.mdl-button:hover {
-                background-color: #e95500;
-            }
-            .card-form.mdl-card__actions {
-                padding: 15px;
-            }
+            }                      
             .center-block {
                 display: block;
                 height: auto;
@@ -59,21 +45,38 @@
             }
             .grid-form.mdl-grid {
                 margin-top: 120px;
-            }                   
+            }
+            div.form-text.mdl-textfield {
+                width: 100%;
+            }
+            input.form-text--usuario, input.form-text--senha {
+                border-color: #fff;
+            }
+            .mdl-textfield.is-focused .mdl-textfield__label {
+                color: #fff;
+            }
+            .form-text.mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label.is-upgraded.is-dirty {
+               color: #fff;
+            }                    
         </style>     
     </head>
     <body>   
-        <div class="mdl-color--orange mdl-layout mdl-js-layout">
+        <div class="mdl-color--red mdl-layout mdl-js-layout">
 
             <div class ="grid-form mdl-grid">
                 <div class="mdl-cell mdl-cell--12-col">  
                     <img src="images/marketingkit_logo.png" class="center-block" alt="Marketing Kit">
                      <form action="#">
-                        <br><br><br>                       
-                        <button class="button-sign-up mdl-button mdl-js-button" onclick="#">
-                           Sign Up 
-                        </button><br><br>                   
-                        <button class="button-login mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--white" onclick="window.open('login.html', '_blank')">
+                        <div class="form-text mdl-textfield mdl-js-textfield mdl-textfield--floating-label">                            
+                            <input class="form-text--usuario mdl-textfield__input" type="text" id="usuario">
+                            <label class="form-label mdl-textfield__label" style="color: #fff;" for="usuario">Usuário</label>
+                        </div><br>
+                        <div class="form-text mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            <input class="form-text--senha mdl-textfield__input" type="password" id="senha">
+                            <label class="form-label mdl-textfield__label" style="color: #fff;" for="senha">Senha</label>
+                        </div>   
+                        <p style="text-align: right;"><a href="#" style="color: #fff;">Esqueceu a senha?</a></p>
+                        <button class="button-login mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--white">
                            Login 
                         </button>
                     </form>
