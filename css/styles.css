@@ -330,3 +330,57 @@ span.badge-text > i{
 .dimgray{
   color: dimgray;
 }
+
+/*------------
+Página Index
+--------------*/
+
+.button-login.mdl-button {
+    width: 100%;
+    margin-top: 5px;
+    color: #e95500;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}  
+.button-sign-up.mdl-button {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 100%;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+}
+.button-sign-up.mdl-button:hover {
+    background-color: #e95500;
+}
+.card-form.mdl-card__actions {
+    padding: 15px;
+}
+.center-block {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+.grid-form.mdl-grid {
+    margin-top: 120px;
+}   
+
+/*------------
+Página Login
+--------------*/
+
+div.form-text.mdl-textfield {
+    width: 100%;
+}
+input.form-text--usuario, input.form-text--senha {
+    border-color: #fff;
+}
+.mdl-textfield.is-focused .mdl-textfield__label {
+    color: #fff;
+}
+.form-text.mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label.is-upgraded.is-dirty {
+    color: #fff;
+} 
