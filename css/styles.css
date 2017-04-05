@@ -213,3 +213,120 @@ _:-ms-input-placeholder, :root .demo-graph {
       -ms-flex-align: center;
           align-items: center;
 }
+
+/*----------------------------------------*/
+/*helpers*/
+
+.mdl-card{
+  min-height: 0px;
+}
+
+.mdl-data-table{
+  font-size: 12px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font: 18px Arial, sans-serif;
+  font-weight: bold;
+  margin: 0 40px 0 0;
+}
+
+.badge-text{
+  color: white;
+  line-height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+span.badge-text > i{
+  margin-right: 5px;
+  font-size: 40px;
+}
+
+.mdl-card__media.transparent-content{
+  background-color: unset;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-margin{
+  margin: 50px 30px 0 30px;
+}
+
+.text-margin{
+  margin: 50px 30px 0 30px;
+}
+
+.text-margin.mdl-typography--title{
+  margin: 0 0 10px 0;
+}
+
+.positive-mark{
+  font-size: 40px;
+  color: OliveDrab;
+}
+
+.vertical-align {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border: 2px dashed #f69c55;
+}
+
+.truncate{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 35%;
+}
+
+/*----------------------------------------*/
+/*Backgrounds*/
+
+.bg-orange{
+  background-color: orange;
+}
+
+.bg-orangered{
+  background-color: orangered;
+}
+
+.bg-olive-drab{
+  background-color: OliveDrab;
+}
+
+.bg-dimgray{
+  background-color: dimgray;
+}
+
+/*----------------------------------------*/
+/*Font colors*/
+
+.orange{
+  color: orange;
+}
+
+.orangered{
+  color: orangered;
+}
+
+.white{
+  color: white;
+}
+
+.olive-drab{
+  color: OliveDrab;
+}
+
+.dimgray{
+  color: dimgray;
+}
