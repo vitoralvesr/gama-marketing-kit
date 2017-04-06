@@ -357,12 +357,11 @@ Página Index
 .card-form.mdl-card__actions {
     padding: 15px;
 }
-.center-block-login{
+.img-responsive{
     display: block;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
+    height: auto;    
+    max-width: 100%;
+    margin: auto;
 }
 .grid-form.mdl-grid {
     margin-top: 120px;
