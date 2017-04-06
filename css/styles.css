@@ -396,3 +396,27 @@ Página Painel
     padding-bottom: 10px;
     width: 80px;
 }
+
+/*-------------------
+Página Certificados
+---------------------*/
+
+.md-150 {
+  font-size: 150px;
+}
+
+.orange {
+  color: #fb8c00;
+}
+
+.blue {
+  color: #02a8f3;
+}
+
+.red {
+  color: #fe6363;
+}
+
+.margin-cell {
+  margin-top: 50px;
+}
