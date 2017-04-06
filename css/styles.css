@@ -420,3 +420,15 @@ Página Certificados
 .margin-cell {
   margin-top: 50px;
 }
+
+.md-25 {
+  font-size: 25px;
+  font-weight: 400; 
+}
+
+.mdl-text {
+  color: rgba(0,0,0,.54);
+    font-size: 1rem;
+    line-height: 18px;
+    overflow: hidden;   
+}
